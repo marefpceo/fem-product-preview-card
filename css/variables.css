@@ -88,5 +88,7 @@
 --spacing-500: 2.5rem;          /*  40px  */
 
 /* Theme variables */
+--body-bg: var(--black-custom);
+--primary-bg: var(--cream-custom);
 
 }
