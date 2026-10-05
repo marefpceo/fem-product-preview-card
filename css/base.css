@@ -1,4 +1,4 @@
 body {
-  background-color: var(--black-custom);
+  background-color: var(--body-bg);
   font-size: (--fs-base);
 }
