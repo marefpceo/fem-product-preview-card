@@ -1,0 +1,92 @@
+/* Stores global colors, fonts, and spacing tokens */
+
+@font-face {
+  font-family: 'Fraunces';
+  src:
+    local('Fraunces'), 
+    url('../fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf');
+
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  src: 
+    local('Fraunces'),
+    url('../fonts/Fraunces/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf');
+
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: 
+    local('Montserrat'),
+    url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+
+  font-weight: 500 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: 
+    local('Montserrat'),
+    url('../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+
+  font-weight: 500 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+:root {
+/* Colors - hsl recommended if possible */
+--black-custom: hsl(212deg 21% 14%);
+--grey-custom: hsl(228deg 12% 48%);
+--cream-custom: hsl(30deg 38% 92%);
+--white-custom: hsl(0deg 0 100%);
+--green-500: hsl(158deg 36% 37%);
+--green-700: hsl(158deg 42% 18%);
+
+/* Fonts */
+--font-sans: 'Montserrat', Arial, sans-serif;
+--font-serif: 'Fraunces', Georgia, serif;
+
+/* Font Size */
+--fs-xs: 0.75rem;           /*  12px  */
+--fs-sm: 0.8125rem;         /*  13px  */
+--fs-base: 0.875rem;        /*  14px  */
+--fs-xl: 2rem;              /*  32px  */
+
+/* Font weight */
+--fw-normal: 500;
+--fw-bold: 700;
+
+/* Line height */
+--line-0: 1;                /*  100%  */
+--line-1: 1.1;              /*  110%  */
+--line-2: 1.2;              /*  120%  */
+--line-6: 1.6;              /*  160%  */
+
+/* Letter spacing */
+--tracking-normal: 0;        /*  0px  */
+--tracking-wide: 0.3125rem;  /*  5px  */
+
+
+/* Spacing */
+--spacing-050: 0.25rem;         /*  4px   */
+--spacing-100: 0.5rem;          /*  8px   */
+--spacing-200: 1rem;            /*  16px  */
+--spacing-300: 1.5rem;          /*  24px  */
+--spacing-400: 2rem;            /*  32px  */
+--spacing-500: 2.5rem;          /*  40px  */
+
+/* Theme variables */
+
+}
