@@ -87,8 +87,20 @@
 --spacing-400: 2rem;            /*  32px  */
 --spacing-500: 2.5rem;          /*  40px  */
 
+/* Radius */
+--radius-0: 0;                  /*  0px   */
+--radius-sm: 0.5rem;            /*  8px   */
+
 /* Theme variables */
---body-bg: var(--black-custom);
---primary-bg: var(--cream-custom);
+--body-bg: var(--cream-custom);
+
+--card-bg: var(--white-custom);
+--card-text-primary: var(--black-custom);
+--card-text-alternate: var(--grey-custom);
+--card-text-accent: var(--green-500);
+
+--button-bg: var(--green-500);
+--button-bg-hover: var(--green-700);
+--button-text: var(--cream-custom);
 
 }
