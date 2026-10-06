@@ -28,12 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot large](./images/screenshot.png) 
+![Screenshot mobile](./images/screenshot-mobile.png)
 
 ### Links
 
-- Solution URL: [Review code](https://github.com/marefpceo/fem-product-review-card)
-- Live Site URL: [Live Test](https://marefpceo.github.io/fem-product-review-card)
+- Solution URL: [Review code](https://github.com/marefpceo/fem-product-preview-card)
+- Live Site URL: [Live Test](https://marefpceo.github.io/fem-product-preview-card)
 
 ## My process
 
@@ -47,11 +48,29 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This project did not introduce and new concepts for me. However, since this is a smaller project to practice responsive designs, I took the opportunity to rely on CSS Grid for the component's overall layout. Doing so, allowed me to gain a better understanding on how useful CSS grid designs can be. I am overly confident with CSS Flexbox to the point that it has always been my go to. And for that reason, that is why I am focusing more attention to CSS Grid for major layouts. 
 
+The code snippet below is a good example of how I can do more with CSS Grid using fewer lines of code. When the viewport width reaches 48rem (768px), the display shifts from a single column to a single row. The ```grid-auto-columns: 1fr``` attribute ensures that each grid item occupies the same amount of space.  
+
+```css
+.card {
+  /* ... previous lines of css ... */
+
+  @media (min-width: 48rem) {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    
+    /* ... remaining lines of css ... */
+  }
+}
+```
+
+To achieve the same results using CSS Flexbox, only one line of code is needed for the display type. But additional code is needed to ensure that the image occupies the same space as the content. And in order to do that, we would have to apply changes to the ```<picture>``` div and ```.card-content``` class.
+ 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I plan on continuing to become more proficient in selecting and utilizing CSS Grid for major design layouts. With CSS Grid being a true two-dimensional control, it only makes since to learn how to properly use it and leverage it's true power.  
 
 ### Useful resources
 
