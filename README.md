@@ -77,6 +77,8 @@ I plan on continuing to become more proficient in selecting and utilizing CSS Gr
 - [MDN Web Docs](https://developer.mozilla.org/en-US/) - This serves as a general reference guide for HTML and CSS.
 - [A Modern CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/) - I wanted a small and simple CSS reset and this did the job. Each section is explained very well with examples on why a reset was used.
 
+- [A Complete CSS Grid Layout Guide](https://css-tricks.com/complete-guide-css-grid-layout/) - I used this site for a good detailed explanation with visual examples to help understand CSS Grid Properties.
+
 ## Author
 
 - Website - [Lamar Stevens](https://www.lamar-stevens.com)
