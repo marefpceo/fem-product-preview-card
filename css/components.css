@@ -18,3 +18,27 @@
   flex-direction: column;
   gap: var(--spacing-300);
 }
+
+.card-price {
+  display: flex;
+  gap: var(--spacing-200);
+  align-items: center;
+
+  & p {
+    color: var(--card-text-accent);
+  }
+}
+
+.card-button {
+  display: inline-flex;
+  justify-content: center;
+  gap: var(--spacing-200);
+
+  background-color: var(--card-text-accent);
+  color: var(--white-custom);
+  
+  border: none;
+  border-radius: var(--radius-sm);
+
+  padding: var(--spacing-200) var(--spacing-400);
+}
