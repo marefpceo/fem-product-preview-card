@@ -1,4 +1,18 @@
 body {
   background-color: var(--body-bg);
+  color: var(--card-text-alternate);
   font-size: (--fs-base);
+  height: 100svh;
+}
+
+h1 {
+  color: var(--card-text-primary);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }

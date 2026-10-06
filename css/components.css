@@ -1,0 +1,20 @@
+.card {
+  background-color: var(--card-bg);
+  border-radius: var(--radius-sm);
+  width: 21.875rem;
+  
+  overflow: hidden;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-300);
+  padding: var(--spacing-400);
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-300);
+}
