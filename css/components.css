@@ -1,7 +1,7 @@
 .card {
   background-color: var(--card-bg);
   border-radius: var(--radius-sm);
-  width: 21.875rem;
+  width: min(100%, 21.875rem);
   overflow: hidden;
 
   @media (min-width: 48rem) {

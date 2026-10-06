@@ -1,7 +1,7 @@
 body {
   background-color: var(--body-bg);
   color: var(--card-text-alternate);
-  font-size: (--fs-base);
+  font-size: var(--fs-base);
   height: 100svh;
 }
 
